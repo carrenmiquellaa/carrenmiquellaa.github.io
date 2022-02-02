@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;  
+    color: black;  
+}
+
+.main_container {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto;
+    background-color: transparent;
+}
+
+.kiri {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 800px;
+    margin-top: 17px;
+    background-color: transparent;
+
+}
+
+.kanan {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 800px;
+    margin-top: 17px;
+    background-color: transparent;
+}
+
+.atas {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    background-color: transparent;
+}
+
+.bawah {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    background-color: transparent;
+}
+
+.kanan .atas{
+    padding-left: 30%;
+}
+
+.kanan .bawah{
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.kiri .bawah{
+    padding-left: 5%;
+}
+
+.border {
+    position: relative;
+    height: 5px;
+    width: 530px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(81, 90, 134);
+}
+
+.isi {
+    padding-left: 5%;
+}
+
+table .routetable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table .info-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td, th {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+  
+td:nth-child(1) {
+    width: 100px;
+    height: 50px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+td:nth-child(2) {
+    width: 350px;
+    height: 50px;
+    font-size: 17pt;
+    font-family: sans-serif;
+}
+
+td:nth-child(3) {
+    width: 60px;
+    height: 50px;
+}
+
+div h1:nth-child(4) {
+    font-family: sans-serif;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2{
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+table.stand_table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table.stand_table th {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+
+}
+table.stand_table td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    height:80px;
+}
+
+.notif {
+    position: absolute;
+    right: 100px;
+    top: -50px;
+    width: 250px;
+    height: 120px;
+    display: block;
+    background-color: rgb(183, 132, 218);
+    border-radius: 10px;
+}
+
+.kotaknotif {
+    position: relative;
+       right: -10px;
+       top: 25px;
+       width: 250px;
+       height: 120px;
+       display: block;
+       border-radius: 10px;
+}
